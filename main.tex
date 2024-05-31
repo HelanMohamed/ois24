@@ -4,16 +4,21 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
 \title{Your Paper}
 \author{You}
+
 \begin{document}
 \maketitle
+
 \begin{abstract}
 A simple abstract
 \end{abstract}
 
-%% add here some latex code to load the content of  introduction.tex (1 line)	
+\input{introduction.tex}  % Command to include the content of introduction.tex
 
+%% Here you can continue with the rest of your document
 \bibliographystyle{alpha}
 \bibliography{sample}
+
 \end{document}
